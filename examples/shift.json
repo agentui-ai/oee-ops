@@ -1,0 +1,14 @@
+{
+  "from": "2026-01-15T00:00:00Z",
+  "to":   "2026-01-16T00:00:00Z",
+  "stops": [
+    { "start": "2026-01-15T00:00:00Z", "end": "2026-01-15T06:00:00Z", "category": "non_engagement" },
+    { "start": "2026-01-15T22:00:00Z", "end": "2026-01-16T00:00:00Z", "category": "non_engagement" },
+    { "start": "2026-01-15T12:00:00Z", "end": "2026-01-15T12:45:00Z", "category": "arret_planifie", "reason": "break" },
+    { "start": "2026-01-15T14:00:00Z", "end": "2026-01-15T15:00:00Z", "category": "arret_propre", "reason": "changeover" },
+    { "start": "2026-01-15T14:30:00Z", "end": "2026-01-15T15:00:00Z", "category": "arret_propre", "reason": "changeover" },
+    { "start": "2026-01-15T18:00:00Z", "end": "2026-01-15T18:40:00Z", "category": "arret_propre", "reason": "breakdown" },
+    { "start": "2026-01-15T20:00:00Z", "end": "2026-01-15T20:15:00Z", "category": "arret_induit", "reason": "starved upstream" }
+  ],
+  "production": [{ "goodUnits": 980, "badUnits": 45, "nominalCycleMs": 45000 }]
+}

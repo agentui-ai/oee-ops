@@ -1,0 +1,34 @@
+{
+  "name": "oee-ops",
+  "displayName": "OEE Ops",
+  "version": "0.1.0",
+  "description": "Compute OEE correctly — TRS, TRG and TRE per AFNOR NF E 60-182, mapped to Nakajima's OEE/OOE/TEEP and ISO 22400. Time buckets as interval sets, exact A x P x Q factorisation, correct roll-ups, loss waterfalls and Pareto. Ships a deterministic benchmark.",
+  "author": {
+    "name": "AgentUI",
+    "url": "https://www.agentui.ai/"
+  },
+  "homepage": "https://github.com/agentui-ai/oee-ops",
+  "repository": "https://github.com/agentui-ai/oee-ops",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "oee",
+    "trs",
+    "trg",
+    "tre",
+    "nf-e-60-182",
+    "iso-22400",
+    "manufacturing",
+    "mes",
+    "teep",
+    "kpi"
+  ],
+  "category": "productivity",
+  "tags": [
+    "oee",
+    "trs",
+    "manufacturing",
+    "mes",
+    "kpi"
+  ]
+}

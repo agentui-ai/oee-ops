@@ -1,0 +1,19 @@
+{
+  "name": "oee-ops",
+  "interface": {
+    "displayName": "OEE Ops"
+  },
+  "plugins": [
+    {
+      "name": "oee-ops",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

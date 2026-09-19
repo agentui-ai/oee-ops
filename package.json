@@ -1,0 +1,27 @@
+{
+  "name": "oee-ops",
+  "version": "0.1.0",
+  "scripts": {
+    "bench": "node benchmark/run.mjs",
+    "oee": "node skills/oee-ops/scripts/oee-cli.mjs"
+  },
+  "keywords": [
+    "oee",
+    "trs",
+    "nf-e-60-182",
+    "manufacturing",
+    "agent-skill"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "OEE / TRS that survives an audit — NF E 60-182 done right, plus a deterministic benchmark.",
+  "private": false,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agentui-ai/oee-ops.git"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

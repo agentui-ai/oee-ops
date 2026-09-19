@@ -1,0 +1,42 @@
+{
+  "name": "oee-ops",
+  "version": "0.1.0",
+  "description": "Compute OEE correctly — TRS, TRG and TRE per AFNOR NF E 60-182, mapped to Nakajima's OEE/OOE/TEEP and ISO 22400. Time buckets as interval sets, exact A x P x Q factorisation, correct roll-ups, loss waterfalls and Pareto. Ships a deterministic benchmark.",
+  "author": {
+    "name": "AgentUI",
+    "url": "https://www.agentui.ai/"
+  },
+  "homepage": "https://github.com/agentui-ai/oee-ops",
+  "repository": "https://github.com/agentui-ai/oee-ops",
+  "license": "MIT",
+  "keywords": [
+    "oee",
+    "trs",
+    "trg",
+    "tre",
+    "nf-e-60-182",
+    "iso-22400",
+    "manufacturing",
+    "mes",
+    "teep",
+    "kpi"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OEE Ops",
+    "shortDescription": "OEE / TRS that survives an audit.",
+    "longDescription": "The OEE arithmetic is three multiplications; everything that goes wrong is upstream of it. This skill covers the nine errors that produce a plausible wrong rate — averaging rates across machines or days, summing overlapping stop logs, stops crossing the window, circular performance rates, stale nominal cycle times, and the wrong denominator — with time buckets computed as interval sets, an exact TRS = DO x TP x TQ factorisation per NF E 60-182, loss waterfalls, Pareto by cause, and a deterministic benchmark on numbers you can check on paper.",
+    "developerName": "AgentUI",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://github.com/agentui-ai/oee-ops",
+    "brandColor": "#0F766E",
+    "defaultPrompt": [
+      "Compute the TRS for this shift and show me where the time went",
+      "Our plant OEE looks wrong — check how it is being rolled up"
+    ],
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

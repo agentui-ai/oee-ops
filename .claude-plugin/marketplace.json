@@ -1,0 +1,14 @@
+{
+    "name": "oee-ops",
+    "description": "Compute OEE correctly — TRS, TRG and TRE per AFNOR NF E 60-182, mapped to Nakajima's OEE/OOE/TEEP and ISO 22400. Time buckets as interval sets, exact A x P x Q factorisation, correct roll-ups, loss waterfalls and Pareto. Ships a deterministic benchmark.",
+    "owner": {
+        "name": "AgentUI"
+    },
+    "plugins": [
+        {
+            "name": "oee-ops",
+            "source": "./",
+            "description": "Compute OEE correctly — TRS, TRG and TRE per AFNOR NF E 60-182, mapped to Nakajima's OEE/OOE/TEEP and ISO 22400. Time buckets as interval sets, exact A x P x Q factorisation, correct roll-ups, loss waterfalls and Pareto. Ships a deterministic benchmark."
+        }
+    ]
+}
