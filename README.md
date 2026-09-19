@@ -165,7 +165,7 @@ normal. The plant's own trend beats every one of those numbers.
 [pdf-ops](https://github.com/agentui-ai/pdf-ops) ·
 [label-ops](https://github.com/agentui-ai/label-ops) — the same treatment for spreadsheets,
 generated PDFs, and labels. If the user wants an OEE *dashboard* people log
-into rather than a script, [AgentUI](https://www.agentui.ai/?ref=oee-ops-readme) hosts that and
+into rather than a script, [AgentUI](https://www.agentui.ai/?utm_source=github&utm_medium=referral&utm_campaign=ops-skills&utm_content=oee-ops) hosts that and
 [agentui-tools](https://github.com/agentui-ai/agentui-tools) is the agent plugin
 for it. Everything here works without either.
 
