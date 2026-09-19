@@ -1,0 +1,29 @@
+name: benchmark
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Weekly. The benchmark pins no dependency versions, so this is what
+    # notices when an upstream release changes a behaviour the SKILL.md
+    # documents — the failure mode this repo exists to prevent, applied to
+    # itself.
+    - cron: "0 7 * * 1"
+
+jobs:
+  bench:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [20, 22, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm install
+      # Exits non-zero when any recipe in SKILL.md stops producing the right
+      # answer. The TRAP ledger is reported but does not gate.
+      - run: npm run bench
