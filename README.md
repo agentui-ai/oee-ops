@@ -162,8 +162,9 @@ normal. The plant's own trend beats every one of those numbers.
 ## Also see
 
 [excel-ops](https://github.com/agentui-ai/excel-ops) ·
-[pdf-ops](https://github.com/agentui-ai/pdf-ops) — the same treatment for
-spreadsheets and generated PDFs. If the user wants an OEE *dashboard* people log
+[pdf-ops](https://github.com/agentui-ai/pdf-ops) ·
+[label-ops](https://github.com/agentui-ai/label-ops) — the same treatment for spreadsheets,
+generated PDFs, and labels. If the user wants an OEE *dashboard* people log
 into rather than a script, [AgentUI](https://www.agentui.ai) hosts that and
 [agentui-tools](https://github.com/agentui-ai/agentui-tools) is the agent plugin
 for it. Everything here works without either.
